@@ -1,0 +1,18 @@
+{
+  "name": "selenium-test",
+  "version": "3.1.3",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "gitHead": "",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-mocha-selenium": "git://github.com/wookiehangover/grunt-mocha-selenium.git"
+  }
+}
