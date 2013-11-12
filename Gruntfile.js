@@ -4,11 +4,19 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     mochaSelenium: {
-      options: {
-	usePromises: true,
-	useChrome: true
+      	options: {
+		// usePromises: true,
+		// useChaining: true,
+		// useChrome: true
       },
-      all: ['test/functional2.js']
+	all: {
+	       src: ['test/functional2.js'],
+	       options: {
+	         browserName: 'chrome',
+	         usePromises: true,
+	         useChaining: true
+	       }
+	     }
     },
 
   });
